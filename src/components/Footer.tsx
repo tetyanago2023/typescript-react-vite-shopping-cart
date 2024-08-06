@@ -9,7 +9,7 @@ const Footer = ({ viewCart}: PropsType) => {
     const year: number = new Date().getFullYear()
 
     const pageContent = viewCart
-        ? <p>Shopping Cart &copy: {year}</p>
+        ? <p>Shopping Cart &copy; {year}</p>
         : (
             <>
                 <p>Total Items: {totalItems}</p>
